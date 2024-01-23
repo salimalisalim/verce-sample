@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "public": "uploads",
+    "files": ["uploads/**/*"],
     "builds": [
       {
         "src": "./index.js",

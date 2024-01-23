@@ -4,7 +4,7 @@ const app = express();
 
 dotenv.config({path:"./config.env"})
 
-app.get("/home", (req,res)=>{
+app.get("/", (req,res)=>{
     res.send("Home route");
 })
 

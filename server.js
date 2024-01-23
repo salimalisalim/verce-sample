@@ -4,7 +4,7 @@ const app = express();
 
 dotenv.config({path:"./config.env"});
 
-app.use(express.static(__dirname + '/public'));
+app.use("/uploads",express.static(__dirname + '/uploads'));
 
 app.get("/api/home", (req,res)=>{
     res.send("Home route");

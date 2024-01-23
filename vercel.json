@@ -8,7 +8,7 @@
       {
         "src": "uploads/**",
         "use": "@vercel/static"
-      }
+        }
     ],
     "routes": [
       {
@@ -16,8 +16,8 @@
         "dest": "/"
       },
       {
-        "src": "/(.+\\.[a-z]+)$",
-        "dest": "/uploads/$1"
-      }
+        "src": "/(.+)",
+        "dest": "uploads/$1"
+    }
     ]
   }

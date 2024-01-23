@@ -1,8 +1,5 @@
 {
     "version": 2,
-    "public": {
-        "source": "uploads"
-      },
     "builds": [
       {
         "src": "./index.js",
